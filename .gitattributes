@@ -1,0 +1,2 @@
+# Keep release hashes identical on Windows and Linux; files are hashed byte-for-byte.
+* -text whitespace=cr-at-eol

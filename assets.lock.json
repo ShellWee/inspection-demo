@@ -1,0 +1,8 @@
+{
+  "schema_version": "inspection-demo-asset-source-v1",
+  "repo_id": "Justin-Hsu/inspection-demo-ecore-assets-v1",
+  "repo_type": "dataset",
+  "revision": "f54b2f892bbeae5ec01564c8d05c565aab7a7fbf",
+  "manifest_sha256": "640d21cdcacf92de2bb6199508d06f498303a18da45ce0742152e0a33de86f45",
+  "private": true
+}

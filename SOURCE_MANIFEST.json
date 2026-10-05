@@ -1,0 +1,344 @@
+{
+  "base_application": {
+    "source": "inspection-demo",
+    "tree_sha256_before_hf_changes": "5471f1bba03803f8701317e7a4dd48b294904aeb25674e5a8e2ef9e0905e351d"
+  },
+  "files": [
+    {
+      "bytes": 147,
+      "path": "vendor/cobbie-ecore/src/__init__.py",
+      "sha256": "66ba145fb512192f4a0d0a41f4778967e5ed25a3143d37798de817785fa93e0d"
+    },
+    {
+      "bytes": 1517,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/__init__.py",
+      "sha256": "515387099b337ebe6ecd7aa829af87de0ac45619a0c8fd443502fda4f8d543af"
+    },
+    {
+      "bytes": 113976,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/async_client.py",
+      "sha256": "3fd94890d49ffe82bf4868d77f11e0ebfe5d7524d4016b5e3d5eedfde214184e"
+    },
+    {
+      "bytes": 2914,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/config.py",
+      "sha256": "4a6c1884194a445020d6b5aa613dcaab7e24e5705bd701e2568d2305c3126ff7"
+    },
+    {
+      "bytes": 1177,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/globals.py",
+      "sha256": "b108d188f723c203d1973cd20c82cb6027fc7300e5aff20d34a2a1134d623fec"
+    },
+    {
+      "bytes": 162304,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/inlinedbaml.py",
+      "sha256": "31b171b2180982b95d0e7ff4786db3b867b0331f069dc52f3489e9a92b09c5d4"
+    },
+    {
+      "bytes": 26011,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/parser.py",
+      "sha256": "8d026fdb24df4d1dd8d396878a0c4fa57d0df057a17737a19109791d0513b3e1"
+    },
+    {
+      "bytes": 12249,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/runtime.py",
+      "sha256": "b6da5da894927a4b2288dafa4c29b46d8c1b22ba888d2a0701617bf1f427478a"
+    },
+    {
+      "bytes": 23585,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/stream_types.py",
+      "sha256": "252c2d9018b9d0595dc2197d6e289c58b4487f9a66ee69e57174ac0184cc6caf"
+    },
+    {
+      "bytes": 111187,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/sync_client.py",
+      "sha256": "e8a9bc6ef916676bb5ca62d1a8609966f212cebd5bb88f91f8d7262009bee952"
+    },
+    {
+      "bytes": 906,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/tracing.py",
+      "sha256": "793be4c2fe868a94cda3922c34369b36b9dd6bc32f2beaf99ccaffe93fdfa2cc"
+    },
+    {
+      "bytes": 113706,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/type_builder.py",
+      "sha256": "a8e27a51d5885138526158a55faa799e23778782269192bc6b9b647722546c8c"
+    },
+    {
+      "bytes": 7192,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/type_map.py",
+      "sha256": "50a3d8bd8165a2ee7366732251ad7a71eb2902687e73d3b068585ccaee5fc6bd"
+    },
+    {
+      "bytes": 21660,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/types.py",
+      "sha256": "842026dec5eea0016f1755c395b53954da9a10b4b464874239cfc5bb54ae0f3b"
+    },
+    {
+      "bytes": 1513,
+      "path": "vendor/cobbie-ecore/src/baml/baml_client/watchers.py",
+      "sha256": "0f94644e3992b2a69585b72ddc90007da241b931719a89087fc9c25bbe8a06d3"
+    },
+    {
+      "bytes": 5180,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/align_qa_pair.baml",
+      "sha256": "9e08555a45d668bdefdd77c4ff7d11859f98dfd09dd9b072dfd48d4b69b9dacf"
+    },
+    {
+      "bytes": 12977,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/answer_verifier.baml",
+      "sha256": "1c61884826c4147bdd166bafe83056c0a07fd83f1a5d2b4abd941d7cd2a953dc"
+    },
+    {
+      "bytes": 11759,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/assess_helper_function.baml",
+      "sha256": "5fbfe1cbae651df10f240081913a6987bb54db133f3629bf9bbcc478020a0f1d"
+    },
+    {
+      "bytes": 3323,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/baseline_qa.baml",
+      "sha256": "b33940089d01e10109eb5a27b11fb6ee388742fbaf3430f6a7612f98c4a8c26b"
+    },
+    {
+      "bytes": 5404,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/category_validator.baml",
+      "sha256": "d8f0433a094bd3710f5b0795370e66623e4746d7d5a3b1b40ac2ae91a6a94987"
+    },
+    {
+      "bytes": 1959,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/chunk_reviewer.baml",
+      "sha256": "9d933f3714c93e9febb2f50c991cb531905eeb08ff3d9573163efb59bf6bd6b0"
+    },
+    {
+      "bytes": 4804,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/clients.baml",
+      "sha256": "e39ec9bc87f534ee05326a50ae6e10f2a3666974356d349d603bb882e8b22629"
+    },
+    {
+      "bytes": 9652,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/cobbie.baml",
+      "sha256": "6bb3e6b555fba6b0f43c44ddeb907bf630c5d8ef45a404f22773a993bcd0eae9"
+    },
+    {
+      "bytes": 10126,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/create_helper_function.baml",
+      "sha256": "f1e1f31514971da63ebedaccae3ed0ffee1a0d751655c61e625787f27330ae6d"
+    },
+    {
+      "bytes": 13386,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/debug_helper_function.baml",
+      "sha256": "1e80ad6356b76952315eaf16dfd47f76a3961c971e0ca26ca20787955d9dbc53"
+    },
+    {
+      "bytes": 11292,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/faulty_tool_identifier.baml",
+      "sha256": "6a1fc8734bcf25a619f887e89f53fd1b31303ef253905f4baf5dc2e76df91699"
+    },
+    {
+      "bytes": 800,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/generators.baml",
+      "sha256": "254080b454c0b0a8bff644eb30f06b9be93304d3ac232adbcc1c6099bf869a13"
+    },
+    {
+      "bytes": 9354,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/identify_helper_function.baml",
+      "sha256": "260b17aaf53c05a8207da9832527cb6804504e98362c4b47374dff2b87f9d201"
+    },
+    {
+      "bytes": 4635,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/rog.baml",
+      "sha256": "5d495f75e5fada69cddea4c300d8d754bf2f5995e7689774687481a9810fa27a"
+    },
+    {
+      "bytes": 10635,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/schemas.baml",
+      "sha256": "34ef9a31b7c94c6203a6cc1d95786d45b58eae6a0f883d03f9103aa125935647"
+    },
+    {
+      "bytes": 9828,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/static_oneshot.baml",
+      "sha256": "d2ace9097b0dafb307c7cb1a50a1e09bfda9944cd021e474604033cdb3b2bc4e"
+    },
+    {
+      "bytes": 5849,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/static_oneshot_doc.baml",
+      "sha256": "505ca9a9736c05a72b540f0400b266d8d785f248a846f312131c44327fe18c9b"
+    },
+    {
+      "bytes": 25134,
+      "path": "vendor/cobbie-ecore/src/baml/baml_src/tog.baml",
+      "sha256": "9931f34be42fe2e137b3043ae17099d74339c5f520a4bcd0436600c73187149d"
+    },
+    {
+      "bytes": 2287,
+      "path": "vendor/cobbie-ecore/src/config.py",
+      "sha256": "95e9c3a30684f278c640f3e03a1520a9260bcc6ba4d70d32ead36467af80ce7d"
+    },
+    {
+      "bytes": 48,
+      "path": "vendor/cobbie-ecore/src/integrations/__init__.py",
+      "sha256": "afae737ab30039364aab02a8eed2e3895daf0d3fa5275619f6fec29341ad1d9e"
+    },
+    {
+      "bytes": 72222,
+      "path": "vendor/cobbie-ecore/src/integrations/tog.py",
+      "sha256": "fef502fd3142a8fb0307cdab70b7839db68f350ddae7e6c81b203f092072dae3"
+    },
+    {
+      "bytes": 800,
+      "path": "vendor/cobbie-ecore/src/integrations/tog_wire.py",
+      "sha256": "585811f2fca1a74cb605df96404ce353e750728de388ff0995154e376788c453"
+    },
+    {
+      "bytes": 125,
+      "path": "vendor/cobbie-ecore/src/schemas/__init__.py",
+      "sha256": "e63dc6287fc5d45ccfdbde28622530f6cb709a40503edc33521e7e1333cd278f"
+    },
+    {
+      "bytes": 965,
+      "path": "vendor/cobbie-ecore/src/schemas/agent_error.py",
+      "sha256": "17c0e4d7e169ebfa70882c3cf473af2a6119bb388a208beee3f08b2a881498ff"
+    },
+    {
+      "bytes": 3754,
+      "path": "vendor/cobbie-ecore/src/schemas/result.py",
+      "sha256": "edd7820c51a6f90ea4eeda41ff4bb7014327140a2661b369e8ef27ec3cb8c399"
+    },
+    {
+      "bytes": 2030,
+      "path": "vendor/cobbie-ecore/src/util/__init__.py",
+      "sha256": "b5a05d023e5dc6bf1a64b1b8ea049dffd72d170718c21c4adbc90de11ca921d7"
+    },
+    {
+      "bytes": 3106,
+      "path": "vendor/cobbie-ecore/src/util/baml_retry.py",
+      "sha256": "89b3f6ff98df674fe4d29ceb7a4695a2e58b4fadaf5cab219d2fa33de4499082"
+    },
+    {
+      "bytes": 393,
+      "path": "vendor/text-gnn-plugin/pyproject.toml",
+      "sha256": "b12accffb55f299aea6dc360d481860e76c0796861b8dfa8992faf90d0e3f990"
+    },
+    {
+      "bytes": 2062,
+      "path": "vendor/tog-ifc-ecore/README.md",
+      "sha256": "7e192da870c8778e5c5713ea277f283c56f589bd5fe6f7eaf711f303214c4686"
+    },
+    {
+      "bytes": 1444,
+      "path": "vendor/tog-ifc-ecore/pyproject.toml",
+      "sha256": "7814392a7fd63f3c491b8308dfb5f252b842dc1fcba1f99c1380d328b3e42472"
+    },
+    {
+      "bytes": 2837,
+      "path": "vendor/tog-ifc-ecore/src/tog/__init__.py",
+      "sha256": "ac7215915306039c8a3d835372cb4ff6270568218ca25e3a0bdbe3b1be48020d"
+    },
+    {
+      "bytes": 162,
+      "path": "vendor/tog-ifc-ecore/src/tog/__main__.py",
+      "sha256": "cfe99eeb8e52f73dc7408884aa334ea674deaa5c46639683c061a5d8be4ac747"
+    },
+    {
+      "bytes": 53095,
+      "path": "vendor/tog-ifc-ecore/src/tog/_closure_ledger.py",
+      "sha256": "a8ea5ea42ee82de83480742980438f148d7716728adfa241a74b1541fbf4f0b2"
+    },
+    {
+      "bytes": 40788,
+      "path": "vendor/tog-ifc-ecore/src/tog/_closure_packet.py",
+      "sha256": "4a512f91aeef1e7918ff708a256e0970f8887f8d2b49452afa195f6e9fa4228f"
+    },
+    {
+      "bytes": 285535,
+      "path": "vendor/tog-ifc-ecore/src/tog/backend.py",
+      "sha256": "6dfaf7c0f4f02ffd29bfc8cfe2c038ec769ae12b3d15741ddc43071ba48eb572"
+    },
+    {
+      "bytes": 2606,
+      "path": "vendor/tog-ifc-ecore/src/tog/cli.py",
+      "sha256": "74574ccf251fca9e1394fc2e461287be8ea17fd9b258405723535126a4a978a4"
+    },
+    {
+      "bytes": 2673,
+      "path": "vendor/tog-ifc-ecore/src/tog/comparison.py",
+      "sha256": "66346f39f3950d28b637450bf069c744fff2e1df267e5cb898e84d20406dcb0a"
+    },
+    {
+      "bytes": 238419,
+      "path": "vendor/tog-ifc-ecore/src/tog/engine.py",
+      "sha256": "f4fb94165a3dcd1d1314294e70fb51a2f2df41393bb3b3b630dc109c4af87919"
+    },
+    {
+      "bytes": 45549,
+      "path": "vendor/tog-ifc-ecore/src/tog/index.py",
+      "sha256": "1e986dc8e6ca9100f49e134c268bf135ed43021558a67ab13b992de6fdbef05f"
+    },
+    {
+      "bytes": 3811,
+      "path": "vendor/tog-ifc-ecore/src/tog/llm.py",
+      "sha256": "2c576ea469b0b08d97e64e9c245234fa30e45ab509b8eafaca66c427e9b7e47e"
+    },
+    {
+      "bytes": 33640,
+      "path": "vendor/tog-ifc-ecore/src/tog/models.py",
+      "sha256": "901810d95487379d7663bd9239d81357870000eae3c7c73b424999a2d635f095"
+    },
+    {
+      "bytes": 144615,
+      "path": "vendor/tog-ifc-ecore/src/tog/planning.py",
+      "sha256": "d5c1a612133e0703729205af78d41e96bed131039f607579c2ee90ce0a037f47"
+    },
+    {
+      "bytes": 2,
+      "path": "vendor/tog-ifc-ecore/src/tog/py.typed",
+      "sha256": "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+    },
+    {
+      "bytes": 57449,
+      "path": "vendor/tog-ifc-ecore/src/tog/retrieval_closure.py",
+      "sha256": "113b6164ba6b631f53c8a9f30488f3f03d003f4db7704573abf5b3d1ae8d6ba2"
+    },
+    {
+      "bytes": 4500,
+      "path": "vendor/tog-ifc-ecore/src/tog/retriever_plugin.py",
+      "sha256": "b7677a4afb5bb8648d609ae4c83088894b01442a8c62232a344f6d1661e48dd1"
+    },
+    {
+      "bytes": 6499,
+      "path": "vendor/tog-ifc-ecore/src/tog/routing.py",
+      "sha256": "4678876c3f90364c81ead1ea40e16881bddcca33e470f965756472c38173d7b4"
+    }
+  ],
+  "repositories": {
+    "cobbie-ecore": {
+      "commit": "06be7925b2d08ce64069fa50058886ce9c26f291",
+      "working_tree_delta_sha256": "b2978b6dea088d2980e2241653cf6f7d55bd214e393b6c621b5155a04f753a9e",
+      "working_tree_status": [
+        " M src/util/__init__.py",
+        " M src/util/baml_retry.py"
+      ]
+    },
+    "text-gnn-v3.1": {
+      "commit": "f9fd3acfbb7234c164fc25538098b0a2b84c0093",
+      "working_tree_delta_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "working_tree_status": [
+        " M src/text_gnn_v5/plugin.py"
+      ]
+    },
+    "tog-ifc-ecore": {
+      "commit": "05b62fb786cfb1f6081ec020bfe55fb135a2d850",
+      "working_tree_delta_sha256": "21b3476361417939531ecd269975be672a9a8bd173392f6bf29d47847ea6b938",
+      "working_tree_status": [
+        " M src/tog/engine.py",
+        " M src/tog/planning.py",
+        " M src/tog/retrieval_closure.py",
+        " M src/tog/routing.py",
+        " M tests/test_retrieval_closure_v3.py",
+        " M tests/test_retriever_plugin.py",
+        "?? tests/test_diagnostic_scenario_planning.py"
+      ]
+    }
+  },
+  "schema_version": "inspection-demo-source-snapshot-v1"
+}

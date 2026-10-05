@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text-gnn-v5-plugin-registration"
+version = "5.0.0"
+description = "Entry-point registration for the hash-bound Text-GNN v5 runtime"
+requires-python = ">=3.12,<3.13"
+dependencies = []
+
+[project.entry-points."tog_ifc.retrievers"]
+"text-gnn-v5.0" = "text_gnn_v5.plugin:create_plugin"

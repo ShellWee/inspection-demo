@@ -1,0 +1,83 @@
+{
+  "entries": [
+    {
+      "bytes": 535638822,
+      "path": "ecore/ecore.ifc",
+      "sha256": "84918ca0cd1f9301411ec9350f175eff1519cfc3e8a9a0c4ddbebf2b6787db79"
+    },
+    {
+      "bytes": 1813664,
+      "path": "floorplans/ecore-basement-floorplan-v1.json",
+      "sha256": "2722dfd6087259feb9d53f58ed46caf4c6ccfab9b1cfe27cc5ef8fc60fdd28ad"
+    },
+    {
+      "bytes": 878243,
+      "path": "floorplans/ecore-level-1-2-floorplan-v1.json",
+      "sha256": "620d36496e7587ec7c474cfd103754abed8fa76e7b57090cc3270e40849f3081"
+    },
+    {
+      "bytes": 1560313,
+      "path": "floorplans/ecore-level-1-floorplan-v1.json",
+      "sha256": "0db7d686bb018b14cad0d2d5dae4823c03a3773fcc7721d036f89c84f4c09373"
+    },
+    {
+      "bytes": 2091400,
+      "path": "floorplans/ecore-level-2-floorplan-v1.json",
+      "sha256": "c46fc28ac33e691d9cf5f411ee494049005c96f4d91ed810c48c8033dd3e7bb8"
+    },
+    {
+      "bytes": 136512,
+      "path": "floorplans/ecore-level-2m-floorplan-v1.json",
+      "sha256": "7f324f056e1c869a731c9026b6a7622165bcb327cb488e42715092d78263c016"
+    },
+    {
+      "bytes": 1396442,
+      "path": "floorplans/ecore-level-3-floorplan-v1.json",
+      "sha256": "e66ab1c4edc9b9884bf4668f4c1cbf04fec2eb34edc65f2ce2f46674e7089c03"
+    },
+    {
+      "bytes": 146937,
+      "path": "floorplans/ecore-level-3m-floorplan-v1.json",
+      "sha256": "08a2bf4e655fc8001147a86ac71f978464e18fbec33ff2b4c841cebe6bf71b15"
+    },
+    {
+      "bytes": 1426827,
+      "path": "floorplans/ecore-level-4-floorplan-v1.json",
+      "sha256": "59df50e46cca9ce17313358fb82ecda6fd61b5b1bbc4d268631516638079a95f"
+    },
+    {
+      "bytes": 124840,
+      "path": "floorplans/ecore-level-4m-floorplan-v1.json",
+      "sha256": "860a9d322ad88d934e36a935ae7024ce29821c5813ec219141399b1069302d85"
+    },
+    {
+      "bytes": 1248002,
+      "path": "floorplans/ecore-level-5-floorplan-v1.json",
+      "sha256": "bbe6925cb265a74ff90f4c73ab7d00561378b2a40386e33260137578708030be"
+    },
+    {
+      "bytes": 120659,
+      "path": "floorplans/ecore-level-5m-floorplan-v1.json",
+      "sha256": "06e4f6e35075461844481cdde78263d55d16b3042b91f3957f300a0c8de32dd1"
+    },
+    {
+      "bytes": 501272,
+      "path": "floorplans/ecore-roof-floorplan-v1.json",
+      "sha256": "b6f2c88a06fb22888dbcf7bdf37a41c751accce0348ed941232d4531a3e9638c"
+    },
+    {
+      "bytes": 319504384,
+      "path": "index/84918ca0cd1f9301411e-ifc-inspection-sqlite-v1-frozen-v5-3bc15485690c3911-ifc-actionability-v1.sqlite",
+      "sha256": "863ba4185ede7c97cdad4f958d2f73c22c856de3098bf45ec24104d6c43ca96e"
+    },
+    {
+      "bytes": 76577753,
+      "path": "runtime/text-gnn-v5.0-runtime-2026-09-02.tar.gz",
+      "sha256": "eb5c4e06c061313ffde0d511c11bf0caa855214afdce6773d1035fcf10131cdc"
+    }
+  ],
+  "floor_inventory_sha256": "f6d4042959d1d002615146ba5f2063725e714d0aacd480cfafed299bf2980a55",
+  "ifc_sha256": "84918ca0cd1f9301411ec9350f175eff1519cfc3e8a9a0c4ddbebf2b6787db79",
+  "runtime_manifest_sha256": "81fdd5bf5de079e7067f4cc3fb4775348466fa994333b6ce462aafa392948309",
+  "schema_version": "ecore-inspection-assets-v1"
+}
