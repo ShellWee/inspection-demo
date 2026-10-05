@@ -1,16 +1,3 @@
----
-title: Ecore Inspection Target Planning
-emoji: 🤖
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-fullWidth: true
-header: mini
-disable_embedding: true
-startup_duration_timeout: 30m
-suggested_hardware: l4x1
----
 
 # Ecore Inspection Target Planning
 
