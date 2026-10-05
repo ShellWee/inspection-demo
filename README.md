@@ -3,11 +3,10 @@
 
 ## Git + Notebook quick start
 
-Official source repository: [ShellWee/inspection-demo](https://github.com/ShellWee/inspection-demo)
-(private; collaborator access required). This source release includes the newer
-answer/planning distinction and what-if validation fixes. Uploading this GitHub
-repository does **not** deploy or resume the existing Hugging Face Space.
+Official source repository: [ShellWee/inspection-demo](https://github.com/ShellWee/inspection-demo). This source release includes the newer
+answer/planning distinction and what-if validation fixes.
 
+## Usage
 ```bash
 git clone https://github.com/ShellWee/inspection-demo.git
 cd inspection-demo
@@ -22,7 +21,7 @@ environment, not in the app environment that `uv sync` manages.
 
 The notebook installs dependencies, verifies assets, starts the local server,
 checks status, optionally submits a query and stops the server. Setup and start
-do not call an OpenAI model. Query submission is opt-in and uses your own key.
+do not call an OpenAI model.
 
 - Assets: approximately **943 MB**, downloaded separately from the private HF
   dataset revision pinned in `assets.lock.json`. Obtain read access and use
@@ -37,12 +36,9 @@ do not call an OpenAI model. Query submission is opt-in and uses your own key.
 - The app still uses the existing single-user ownership model. Do not expose
   its port publicly. This release does not implement the proposed remote ZeroGPU
   service or change cloud billing.
-- Windows Application Control blocks must be resolved with your administrator;
-  the notebook does not bypass executable restrictions.
 
 See [step-by-step notebook instructions](docs/NOTEBOOK_QUICKSTART.md) and
-[source/asset notices](THIRD_PARTY_NOTICES.md). Never paste credentials into Git
-URLs, notebook code, terminal arguments or saved notebook outputs.
+[source/asset notices](THIRD_PARTY_NOTICES.md).
 
 ### Updating an existing checkout
 
@@ -69,25 +65,6 @@ the inventory with `python scripts/repository_manifest.py --write`. The historic
 `SOURCE_MANIFEST.json` is preserved as research provenance. Include the current
 inventory with each release; do not commit downloaded assets or state directories.
 
-### Verification scope for this notebook release
-
-On 2026-10-05: the 41 standard-library launcher/client/release tests completed
-(39 passed; 2 symlink-creation tests skipped because this Windows account lacks
-the privilege). Frontend tests (10) and the production build passed. All 15
-local asset payloads matched the expected manifest. Windows process-tree cleanup
-was tested with harmless test workers, not model inference.
-
-The application `.venv` remains blocked by Windows Application Control on the
-development machine, so a fresh full application install/start, Colab execution,
-Linux/CUDA runtime and live model inference were **not** verified in this release.
-No API credits were used. This is a source/notebook delivery, not a claim that
-the local OS policy problem or the cloud GPU architecture has been fixed.
-
-## Existing Hugging Face deployment
-
-Private, single-user Hugging Face Docker Space for live Ecore target grounding and browser-based 2D navigation simulation.
-
-The Space always uses the pinned Ecore IFC, Text-GNN v5 seed43 epoch10 runtime, and `text-embedding-3-small`. Users provide an OpenAI API key, select GPT-4.1, GPT-5, or GPT-5.6 Luna, and submit a 3–2000 character English inspection query. Results without certified graph evidence abstain; certified but unlocalizable results cannot execute.
 
 ## Space configuration
 
