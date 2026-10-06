@@ -1,12 +1,7 @@
 
 # Ecore Inspection Target Planning
 
-## Git + Notebook quick start
-
-Official source repository: [ShellWee/inspection-demo](https://github.com/ShellWee/inspection-demo). This source release includes the newer
-answer/planning distinction and what-if validation fixes.
-
-## Usage
+## Ｑuick start
 ```bash
 git clone https://github.com/ShellWee/inspection-demo.git
 cd inspection-demo
